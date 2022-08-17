@@ -4,12 +4,16 @@
 2019년 12월에 R언어의 shiny 패키지를 사용하여 제작되었습니다.   
    
 R에서 다음을 실행하면 웹사이트를 볼 수 있습니다.   
+```
 library(shiny)   
 runGitHub(repo = "gradeVis", username = "lnxhigh", ref = "main")   
+```
    
 또는 파일을 다운받아서 다음을 실행해도 됩니다.   
+```
 library(shiny)   
 runApp()   
+```
    
 구성은 다음과 같습니다.   
 ui.R   
